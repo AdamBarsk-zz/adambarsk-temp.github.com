@@ -65,7 +65,7 @@ body {
   .countdownOne {
     float: right;
   }
-  .headline, .subline, .main-content, .information {
+  .headline, .subline, .main-content, .information, .information-link {
     text-align: left !important;
   }
   .nav-wide, .footer-wide {
@@ -89,7 +89,7 @@ body {
   .countdownOne {
     float: right;
   }
-  .headline, .subline, .main-content, .information {
+  .headline, .subline, .main-content, .information, .information-link {
     text-align: left !important;
   }
   .nav-wide, .footer-wide {
@@ -118,14 +118,14 @@ main {
   text-align: center;
 }
 
-.footer a {
+.footer a, .information-link {
   text-decoration: none;
   color: #262626;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.footer a:hover {
+.footer a:hover, .information-link:hover {
   color: #ff5400;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
@@ -174,7 +174,7 @@ main {
 
 /* All other content */
 
-.headline, .main-content, .information {
+.headline, .main-content, .information, .information-link {
   text-align: center;
 }
 
@@ -183,8 +183,13 @@ main {
   max-width: 600px;
 }
 
-.information {
+.information, .information-link {
   max-width: 600px;
+}
+
+.information-link {
+  display: block;
+  margin: 5px 0;
 }
 
 .row-grey {
