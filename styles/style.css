@@ -174,13 +174,17 @@ main {
 
 /* All other content */
 
-.headline, .main-content, .information, .information-link {
+.headline, .main-content, .subline, .information, .information-link {
   text-align: center;
 }
 
-.main-content {
+.main-content, .subline {
   text-indent: 15;
   max-width: 600px;
+}
+
+.subline {
+  font-style: italic;
 }
 
 .information, .information-link {
